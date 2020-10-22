@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - node
 env:
-  - TEST_DIR=package
+  - TEST_DIR=package/recoil_generator
 before_install:
   - cd $TEST_DIR
 install:
